@@ -22,7 +22,7 @@ export default function Login() {
     <form onSubmit={handleLogin} style={{ maxWidth: 400, margin: "auto", padding: 20 }}>
       <h2>Đăng nhập</h2>
       <input
-        type="email"
+        type="text"
         placeholder="Email"
         onChange={(e) => setEmail(e.target.value)}
         required
